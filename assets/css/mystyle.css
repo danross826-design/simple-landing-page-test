@@ -1,0 +1,110 @@
+.upper {
+		
+	/* Layout Properties */
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 585px;
+
+	/* UI Properties */
+	background: #EBF4FF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.contact-btn{
+
+	/* Layout Properties */
+	top: 50px;
+	left: 1221px;
+	width: 164px;
+	height: 44px;
+
+	/* UI Properties */
+	background: #2979EC 0% 0% no-repeat padding-box;
+	border-radius: 50px;
+	opacity: 1;
+}
+
+.btn-text{
+
+
+	/* UI Properties */
+	text-align: center;
+	font: normal normal bold 15px/20px Open Sans;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+
+}
+
+.marketing{
+	/* Layout Properties */
+	top: 238px;
+	left: 154px;
+	width: 565px;
+	height: 133px;
+
+	/* UI Properties */
+	text-align: left;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+.integrated-text{
+	/* Layout Properties */
+	top: 0px;
+	left: 0px;
+	width: 241px;
+	height: 68px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal normal 50px/52px Open Sans;
+	letter-spacing: 0px;
+	color: #000000;
+}
+
+.marketing-text{
+	/* Layout Properties */
+	top: 52px;
+	left: 0px;
+	width: 474px;
+	height: 68px;
+
+	/* UI Properties */
+	text-align: left;
+	font: normal normal bold 50px/52px Open Sans;
+	letter-spacing: 0px;
+	color: #000000;
+}
+
+.im-text{
+
+	/* Layout Properties */
+	top: 371px;
+	left: 153px;
+	width: 521px;
+	height: 114px;
+	/* UI Properties */
+	text-align: left;
+	font: normal normal normal 20px/25px Open Sans;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+.no-margin{
+	margin: 0px;
+}
+
+.ebq-logo{
+
+	top: 19px;
+	left: 47px;
+	width: 106px;
+	height: 106px;
+	
+	/* UI Properties */
+	background: transparent url('img/logo-blue-160x160-1.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
