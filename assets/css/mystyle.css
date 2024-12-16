@@ -1,28 +1,21 @@
-
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-	button {
-
-		/* Layout Properties */
-		top: 36px;
-		left: 190px;
-		width: 164px;
-		height: 44px;
-		/* UI Properties */
-		background: #2979EC 0% 0% no-repeat padding-box;
-		border-radius: 50px;
-		opacity: 1;	
-	}
-
 	.navi {
 			
 
 		/* UI Properties */
 		background: #EBF4FF 0% 0% no-repeat padding-box;
 		opacity: 1;
+	}
+
+	.tools-div{
+
+		margin-top: 5%;
+
+	}
+
+	.services-div{
+
+		padding-left: 15%;
+
 	}
 
 	.upper {
@@ -45,267 +38,28 @@
 		height: 50%;
 
 		/* UI Properties */
-		padding-top: 158px;
-		opacity: 1;
-	}
-
-	.middle-bottom {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		padding-top: 158px;
-		opacity: 1;
-	}
-
-	.lower{
-
-		/* Layout Properties */
-		height: 50%;
-
-		/* UI Properties */
-		margin-top: 5%;
-		background: #0A459E 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.lower-bottom{
-
-
-		/* UI Properties */
-		margin-top: 0%;
-		padding-bottom: 5%;
-		background: #0A459E 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-
-	.contact-btn{
-
-
-
-		/* UI Properties */
-		background: #2979EC;
-	}
-
-	.contact-btn-yellow{
-
-		background: #FFBE3C;
-
-	}
-
-	.btn-text{
-
-
-		/* UI Properties */
-		text-align: center;
-		font: normal normal bold 15px/20px Open Sans;
-		letter-spacing: 0px;
-		color: #FFFFFF;
+		
 		opacity: 1;
 
-	}
+		@media only screen and (max-width: 600px) {
 
-	.marketing{
-		/* Layout Properties */
-		top: 238px;
-		left: 154px;
-		width: 565px;
-		height: 133px;
+			padding-top: 5%;
 
-		/* UI Properties */
-		text-align: left;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.modern{
-		/* Layout Properties */
-		top: 45px;
-		left: 0px;
-		width: 329px;
-		height: 55px;
-
-		/* UI Properties */
-		text-align: left;
-		font: normal normal bold 40px/45px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
-
-	.hands-on{
-
-		/* Layout Properties */
-		top: 886px;
-		left: 154px;
-		width: 499px;
-		height: 180px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 20px/25px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.experts{
-
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		width: 352px;
-		height: 55px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 40px/45px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
 		}
 
-	.integrated-text{
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		width: 241px;
-		height: 68px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 50px/52px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
+		@media only screen and (min-width: 600px) {
 
-	.marketing-text{
-		/* Layout Properties */
-		top: 52px;
-		left: 0px;
-		width: 474px;
-		height: 68px;
+			padding-top: 5%;
 
-		/* UI Properties */
-		text-align: left;
-		font: normal normal bold 50px/52px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
+		}
 
-	.im-text{
-
-		/* Layout Properties */
-		top: 371px;
-		left: 153px;
-		width: 521px;
-		height: 114px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 20px/25px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.next-level-text{
-
-		padding-top: 5%;
-		/* UI Properties */
-		font: normal normal normal 42px/70px Open Sans;
-		color: #FFFFFF;
-	}
-
-	.marketing-next{
-		/* Layout Properties */
-		top: 0px;
-		left: 411px;
-		width: 589px;
-		height: 57px;
-		/* UI Properties */
-		text-align: center;
-		font: normal normal bold 42px/70px Open Sans;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-	}
-
-	.no-margin{
-	  margin: 0%;
-	}
-
-	.no-padding{
-		padding: 0px;
-	} 
-
-	.ebq-logo{
-
-	    max-width: 100%;
-	    height: auto;
-	    width: auto; 
-
-		/* UI Properties */
-		background: transparent url('img/logo-blue-160x160-1.png') 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.infinity-logo{
-
-		/* Layout Properties */
-	    max-width: 100%;
-	    height: auto;
-	    width: auto; 
-		/* UI Properties */
-		opacity: 1;	
-	}
-
-	.window-logo{
-
-		/* Layout Properties */
-		top: 1210px;
-		left: 89px;
-		width: 630px;
-		height: 446px;
-
-		/* UI Properties */
-		background: transparent url('img/Complete-Department-Marketing.png') 0% 0% no-repeat padding-box;
-		box-shadow: 3px 6px 15px #00000036;
-		opacity: 1;
-	}
-
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-	.navi {
+		@media only screen and (min-width: 1200px) {
+			
+			/* UI Properties */
+			padding-top: 158px;
 			
 
-		/* UI Properties */
-		background: #EBF4FF 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.upper {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		background: #EBF4FF 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.middle {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		padding-top: 158px;
-		opacity: 1;
+		}
 	}
 
 	.middle-bottom {
@@ -314,10 +68,26 @@
 		top: 0px;
 		left: 0px;
 		height: 50%;
-
-		/* UI Properties */
-		padding-top: 158px;
 		opacity: 1;
+
+		@media only screen and (max-width: 600px) {
+
+
+		}
+
+		@media only screen and (min-width: 600px) {
+
+
+		}
+
+		@media only screen and (min-width: 1200px) {
+			
+			/* UI Properties */
+			padding-top: 158px;
+			
+
+		}
+
 	}
 
 	.lower{
@@ -344,6 +114,36 @@
 
 	.contact-btn{
 
+
+
+		@media only screen and (max-width: 600px) {
+
+			/* Layout Properties */
+			top: 36px;
+			left: 190px;
+			width: 164px;
+			height: 44px;
+			/* UI Properties */
+			background: #2979EC 0% 0% no-repeat padding-box;
+			border-radius: 50px;
+			opacity: 1;
+		}
+
+		@media only screen and (min-width: 600px) {
+
+			/* Layout Properties */
+			top: 36px;
+			left: 190px;
+			width: 164px;
+			height: 44px;
+			/* UI Properties */
+			background: #2979EC 0% 0% no-repeat padding-box;
+			border-radius: 50px;
+			opacity: 1;
+		}
+
+		@media only screen and (min-width: 1200px) {
+			
 		/* Layout Properties */
 		top: 50px;
 		left: 1221px;
@@ -357,273 +157,40 @@
 		background: #2979EC 0% 0% no-repeat padding-box;
 		border-radius: 50px;
 		opacity: 1;
+
+		}
 	}
 
 	.contact-btn-yellow{
 
-		/* Layout Properties */
-		top: 2018px;
-		left: 638px;
-		width: 164px;
-		height: 44px;
+		@media only screen and (max-width: 600px) {
 
-		/* UI Properties */
-		background: #FFBE3C 0% 0% no-repeat padding-box;
-		border-radius: 50px;
-		opacity: 1;
-
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.btn-text{
-
-
-		/* UI Properties */
-		text-align: center;
-		font: normal normal bold 15px/20px Open Sans;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-		opacity: 1;
-
-	}
-
-	.marketing{
-		/* Layout Properties */
-		top: 238px;
-		left: 154px;
-		width: 565px;
-		height: 133px;
-
-		/* UI Properties */
-		text-align: left;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.modern{
-		/* Layout Properties */
-		top: 45px;
-		left: 0px;
-		width: 329px;
-		height: 55px;
-
-		/* UI Properties */
-		text-align: left;
-		font: normal normal bold 40px/45px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
-
-	.hands-on{
-
-		/* Layout Properties */
-		top: 886px;
-		left: 154px;
-		width: 499px;
-		height: 180px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 20px/25px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.experts{
-
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		width: 352px;
-		height: 55px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 40px/45px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
+			/* Layout Properties */
+			top: 36px;
+			left: 190px;
+			width: 164px;
+			height: 44px;
+			/* UI Properties */
+			background: #FFBE3C 0% 0% no-repeat padding-box;
+			border-radius: 50px;
+			opacity: 1;
 		}
 
-	.integrated-text{
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		width: 241px;
-		height: 68px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 50px/52px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
+		@media only screen and (min-width: 600px) {
 
-	.marketing-text{
-		/* Layout Properties */
-		top: 52px;
-		left: 0px;
-		width: 474px;
-		height: 68px;
+			/* Layout Properties */
+			top: 36px;
+			left: 190px;
+			width: 164px;
+			height: 44px;
+			/* UI Properties */
+			background: #FFBE3C 0% 0% no-repeat padding-box;
+			border-radius: 50px;
+			opacity: 1;
+		}
 
-		/* UI Properties */
-		text-align: left;
-		font: normal normal bold 50px/52px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
-
-	.im-text{
-
-		/* Layout Properties */
-		top: 371px;
-		left: 153px;
-		width: 521px;
-		height: 114px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 20px/25px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.next-level-text{
-
-		padding-top: 5%;
-		/* UI Properties */
-		font: normal normal normal 42px/70px Open Sans;
-		color: #FFFFFF;
-	}
-
-	.marketing-next{
-		/* Layout Properties */
-		top: 0px;
-		left: 411px;
-		width: 589px;
-		height: 57px;
-		/* UI Properties */
-		text-align: center;
-		font: normal normal bold 42px/70px Open Sans;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-	}
-
-	.no-margin{
-	  margin: 0%;
-	}
-
-	.no-padding{
-		padding: 0px;
-	} 
-
-	.ebq-logo{
-
-	    max-width: 100%;
-	    height: auto;
-	    width: auto; 
-
-		/* UI Properties */
-		background: transparent url('img/logo-blue-160x160-1.png') 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.infinity-logo{
-
-		/* Layout Properties */
-	    max-width: 100%;
-	    height: auto;
-	    width: auto; 
-		/* UI Properties */
-		opacity: 1;	
-	}
-
-	.window-logo{
-
-		/* Layout Properties */
-		top: 1210px;
-		left: 89px;
-		width: 630px;
-		height: 446px;
-
-		/* UI Properties */
-		background: transparent url('img/Complete-Department-Marketing.png') 0% 0% no-repeat padding-box;
-		box-shadow: 3px 6px 15px #00000036;
-		opacity: 1;
-	}
-
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-	.navi {
+		@media only screen and (min-width: 1200px) {
 			
-
-		/* UI Properties */
-		background: #EBF4FF 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.upper {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		background: #EBF4FF 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.middle {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		padding-top: 158px;
-		opacity: 1;
-	}
-
-	.middle-bottom {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		padding-top: 158px;
-		opacity: 1;
-	}
-
-	.lower{
-
-		/* Layout Properties */
-		height: 50%;
-
-		/* UI Properties */
-		margin-top: 5%;
-		background: #0A459E 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.lower-bottom{
-
-
-		/* UI Properties */
-		margin-top: 0%;
-		padding-bottom: 5%;
-		background: #0A459E 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-
-	.contact-btn{
-
 		/* Layout Properties */
 		top: 50px;
 		left: 1221px;
@@ -634,27 +201,11 @@
 		margin-top: 5%;
 
 		/* UI Properties */
-		background: #2979EC 0% 0% no-repeat padding-box;
-		border-radius: 50px;
-		opacity: 1;
-	}
-
-	.contact-btn-yellow{
-
-		/* Layout Properties */
-		top: 2018px;
-		left: 638px;
-		width: 164px;
-		height: 44px;
-
-		/* UI Properties */
 		background: #FFBE3C 0% 0% no-repeat padding-box;
 		border-radius: 50px;
 		opacity: 1;
 
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		}
 	}
 
 	.btn-text{
@@ -831,565 +382,3 @@
 		box-shadow: 3px 6px 15px #00000036;
 		opacity: 1;
 	}
-
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-	.navi {
-			
-
-		/* UI Properties */
-		background: #EBF4FF 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.upper {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		background: #EBF4FF 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.middle {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		padding-top: 158px;
-		opacity: 1;
-	}
-
-	.middle-bottom {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		padding-top: 158px;
-		opacity: 1;
-	}
-
-	.lower{
-
-		/* Layout Properties */
-		height: 50%;
-
-		/* UI Properties */
-		margin-top: 5%;
-		background: #0A459E 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.lower-bottom{
-
-
-		/* UI Properties */
-		margin-top: 0%;
-		padding-bottom: 5%;
-		background: #0A459E 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-
-	.contact-btn{
-
-		/* Layout Properties */
-		top: 50px;
-		left: 1221px;
-		width: 164px;
-		height: 44px;
-
-		margin-right: 5%;
-		margin-top: 5%;
-
-		/* UI Properties */
-		background: #2979EC 0% 0% no-repeat padding-box;
-		border-radius: 50px;
-		opacity: 1;
-	}
-
-	.contact-btn-yellow{
-
-		/* Layout Properties */
-		top: 2018px;
-		left: 638px;
-		width: 164px;
-		height: 44px;
-
-		/* UI Properties */
-		background: #FFBE3C 0% 0% no-repeat padding-box;
-		border-radius: 50px;
-		opacity: 1;
-
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.btn-text{
-
-
-		/* UI Properties */
-		text-align: center;
-		font: normal normal bold 15px/20px Open Sans;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-		opacity: 1;
-
-	}
-
-	.marketing{
-		/* Layout Properties */
-		top: 238px;
-		left: 154px;
-		width: 565px;
-		height: 133px;
-
-		/* UI Properties */
-		text-align: left;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.modern{
-		/* Layout Properties */
-		top: 45px;
-		left: 0px;
-		width: 329px;
-		height: 55px;
-
-		/* UI Properties */
-		text-align: left;
-		font: normal normal bold 40px/45px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
-
-	.hands-on{
-
-		/* Layout Properties */
-		top: 886px;
-		left: 154px;
-		width: 499px;
-		height: 180px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 20px/25px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.experts{
-
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		width: 352px;
-		height: 55px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 40px/45px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-		}
-
-	.integrated-text{
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		width: 241px;
-		height: 68px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 50px/52px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
-
-	.marketing-text{
-		/* Layout Properties */
-		top: 52px;
-		left: 0px;
-		width: 474px;
-		height: 68px;
-
-		/* UI Properties */
-		text-align: left;
-		font: normal normal bold 50px/52px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
-
-	.im-text{
-
-		/* Layout Properties */
-		top: 371px;
-		left: 153px;
-		width: 521px;
-		height: 114px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 20px/25px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.next-level-text{
-
-		padding-top: 5%;
-		/* UI Properties */
-		font: normal normal normal 42px/70px Open Sans;
-		color: #FFFFFF;
-	}
-
-	.marketing-next{
-		/* Layout Properties */
-		top: 0px;
-		left: 411px;
-		width: 589px;
-		height: 57px;
-		/* UI Properties */
-		text-align: center;
-		font: normal normal bold 42px/70px Open Sans;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-	}
-
-	.no-margin{
-	  margin: 0%;
-	}
-
-	.no-padding{
-		padding: 0px;
-	} 
-
-	.ebq-logo{
-
-	    max-width: 100%;
-	    height: auto;
-	    width: auto; 
-
-		/* UI Properties */
-		background: transparent url('img/logo-blue-160x160-1.png') 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.infinity-logo{
-
-		/* Layout Properties */
-	    max-width: 100%;
-	    height: auto;
-	    width: auto; 
-		/* UI Properties */
-		opacity: 1;	
-	}
-
-	.window-logo{
-
-		/* Layout Properties */
-		top: 1210px;
-		left: 89px;
-		width: 630px;
-		height: 446px;
-
-		/* UI Properties */
-		background: transparent url('img/Complete-Department-Marketing.png') 0% 0% no-repeat padding-box;
-		box-shadow: 3px 6px 15px #00000036;
-		opacity: 1;
-	}
-
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-	.navi {
-			
-
-		/* UI Properties */
-		background: #EBF4FF 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.upper {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		background: #EBF4FF 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.middle {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		padding-top: 158px;
-		opacity: 1;
-	}
-
-	.middle-bottom {
-			
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		height: 50%;
-
-		/* UI Properties */
-		padding-top: 158px;
-		opacity: 1;
-	}
-
-	.lower{
-
-		/* Layout Properties */
-		height: 50%;
-
-		/* UI Properties */
-		margin-top: 5%;
-		background: #0A459E 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.lower-bottom{
-
-
-		/* UI Properties */
-		margin-top: 0%;
-		padding-bottom: 5%;
-		background: #0A459E 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-
-	.contact-btn{
-
-		/* Layout Properties */
-		top: 50px;
-		left: 1221px;
-		width: 164px;
-		height: 44px;
-
-		margin-right: 5%;
-		margin-top: 5%;
-
-		/* UI Properties */
-		background: #2979EC 0% 0% no-repeat padding-box;
-		border-radius: 50px;
-		opacity: 1;
-	}
-
-	.contact-btn-yellow{
-
-		/* Layout Properties */
-		top: 2018px;
-		left: 638px;
-		width: 164px;
-		height: 44px;
-
-		/* UI Properties */
-		background: #FFBE3C 0% 0% no-repeat padding-box;
-		border-radius: 50px;
-		opacity: 1;
-
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.btn-text{
-
-
-		/* UI Properties */
-		text-align: center;
-		font: normal normal bold 15px/20px Open Sans;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-		opacity: 1;
-
-	}
-
-	.marketing{
-		/* Layout Properties */
-		top: 238px;
-		left: 154px;
-		width: 565px;
-		height: 133px;
-
-		/* UI Properties */
-		text-align: left;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.modern{
-		/* Layout Properties */
-		top: 45px;
-		left: 0px;
-		width: 329px;
-		height: 55px;
-
-		/* UI Properties */
-		text-align: left;
-		font: normal normal bold 40px/45px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
-
-	.hands-on{
-
-		/* Layout Properties */
-		top: 886px;
-		left: 154px;
-		width: 499px;
-		height: 180px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 20px/25px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.experts{
-
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		width: 352px;
-		height: 55px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 40px/45px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-		}
-
-	.integrated-text{
-		/* Layout Properties */
-		top: 0px;
-		left: 0px;
-		width: 241px;
-		height: 68px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 50px/52px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
-
-	.marketing-text{
-		/* Layout Properties */
-		top: 52px;
-		left: 0px;
-		width: 474px;
-		height: 68px;
-
-		/* UI Properties */
-		text-align: left;
-		font: normal normal bold 50px/52px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-	}
-
-	.im-text{
-
-		/* Layout Properties */
-		top: 371px;
-		left: 153px;
-		width: 521px;
-		height: 114px;
-		/* UI Properties */
-		text-align: left;
-		font: normal normal normal 20px/25px Open Sans;
-		letter-spacing: 0px;
-		color: #000000;
-		opacity: 1;
-	}
-
-	.next-level-text{
-
-		padding-top: 5%;
-		/* UI Properties */
-		font: normal normal normal 42px/70px Open Sans;
-		color: #FFFFFF;
-	}
-
-	.marketing-next{
-		/* Layout Properties */
-		top: 0px;
-		left: 411px;
-		width: 589px;
-		height: 57px;
-		/* UI Properties */
-		text-align: center;
-		font: normal normal bold 42px/70px Open Sans;
-		letter-spacing: 0px;
-		color: #FFFFFF;
-	}
-
-	.no-margin{
-	  margin: 0%;
-	}
-
-	.no-padding{
-		padding: 0px;
-	} 
-
-	.ebq-logo{
-
-	    max-width: 100%;
-	    height: auto;
-	    width: auto; 
-
-		/* UI Properties */
-		background: transparent url('img/logo-blue-160x160-1.png') 0% 0% no-repeat padding-box;
-		opacity: 1;
-	}
-
-	.infinity-logo{
-
-		/* Layout Properties */
-	    max-width: 100%;
-	    height: auto;
-	    width: auto; 
-		/* UI Properties */
-		opacity: 1;	
-	}
-
-	.window-logo{
-
-		/* Layout Properties */
-		top: 1210px;
-		left: 89px;
-		width: 630px;
-		height: 446px;
-
-		/* UI Properties */
-		background: transparent url('img/Complete-Department-Marketing.png') 0% 0% no-repeat padding-box;
-		box-shadow: 3px 6px 15px #00000036;
-		opacity: 1;
-	}
-
-}
